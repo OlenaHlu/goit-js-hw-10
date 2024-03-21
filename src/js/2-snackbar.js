@@ -21,7 +21,7 @@ form.addEventListener('submit', event => {
             }
         }, delay)
     });
-    promise
+promise
     .then(value => {
         iziToast.success({
             title: 'Success',
